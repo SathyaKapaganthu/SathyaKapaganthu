@@ -11,9 +11,10 @@
 <h3 align="center">Technical Project Manager | IT Project & Program Delivery</h3>
 
 <p align="center">
-  <a href="https://github.com/SathyaKapaganthu">
-    <img src="https://komarev.com/ghpvc/?username=<SathyaKapaganthu>&label=Profile%20Views&style=flat&color=blue" alt="Profile views" />
-  </a>
+ <a href="https://github.com/SathyaKapaganthu">
+  <img src="https://komarev.com/ghpvc/?username=SathyaKapaganthu&label=Profile%20Views&style=flat&color=blue" alt="Profile views" />
+</a>
+
   <a href="https://github.com/SathyaKapaganthu?tab=followers">
     <img src="https://img.shields.io/github/followers/<SathyaKapaganthu>?label=Followers&style=flat" alt="GitHub Followers" />
   </a>
