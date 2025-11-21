@@ -100,9 +100,6 @@ My interactive portfolio website showcases:
 ---
 
 ## 🖼️ Live Demo Screenshots
-
-> Place your screenshots in an `assets/` folder and update the paths below.
-
 <p align="center">
   <a href="https://sathyakapaganthu.vercel.app/" target="_blank">
     <img src="./assets/dashboard.png" alt="Portfolio Homepage" width="45%" />
@@ -114,16 +111,14 @@ My interactive portfolio website showcases:
 
 ## 📊 GitHub Analytics
 
-> Replace `<YOUR_GITHUB_USERNAME>` with your actual GitHub username.
-
 <p align="center">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=<YOUR_GITHUB_USERNAME>&show_icons=true&theme=radical" 
+    src="https://github-readme-stats.vercel.app/api?username=SathyaKapaganthu&show_icons=true&theme=radical" 
     alt="GitHub Stats" 
     height="160"
   />
   <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=<YOUR_GITHUB_USERNAME>&layout=compact&theme=radical" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SathyaKapaganthu&layout=compact&theme=radical" 
     alt="Top Languages" 
     height="160"
   />
@@ -131,7 +126,7 @@ My interactive portfolio website showcases:
 
 <p align="center">
   <img 
-    src="https://github-readme-streak-stats.herokuapp.com/?user=<YOUR_GITHUB_USERNAME>&theme=radical" 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=SathyaKapaganthu&theme=radical" 
     alt="GitHub Streak" 
     height="160"
   />
