@@ -1,7 +1,7 @@
 <!-- 🌟 TOP BANNER -->
 <p align="center">
   <!-- Replace the src with your actual banner path or URL -->
-  <img src="./assets/sathya-tpm-banner.png" alt="Sathya Kapaganthu | Technical Project Manager" width="100%" />
+  <img src="./assets/pic.jpeg" alt="Sathya Kapaganthu | Technical Project Manager" width="100%" />
 </p>
 
 <h1 align="center">👋 Hi, I'm <span style="color:#ff7b54;">Sathya Kapaganthu</span></h1>
