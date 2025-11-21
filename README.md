@@ -1,9 +1,111 @@
 <!-- 🌟 TOP BANNER -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/<user>/<repo>/main/assets/sathya-tpm-banner.png"
-       alt="Sathya Kapaganthu | Technical Project Manager"
-       width="100%" />
-</p>
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1020"/>
+      <stop offset="50%" stop-color="#1b2550"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Moving light / shine -->
+    <linearGradient id="shineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="40%" stop-color="rgba(255,255,255,0.3)" />
+      <stop offset="60%" stop-color="rgba(255,255,255,0.6)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+      <animate attributeName="x1" values="-100%;100%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Main text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+
+    <!-- Soft glow shadow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 3D extrude effect -->
+    <filter id="extrude">
+      <feOffset dx="4" dy="4" in="SourceAlpha" result="off1"/>
+      <feOffset dx="8" dy="8" in="SourceAlpha" result="off2"/>
+      <feMerge>
+        <feMergeNode in="off1"/>
+        <feMergeNode in="off2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGradient)" />
+
+  <!-- Animated shine bar -->
+  <rect x="-200" y="0" width="400" height="300" fill="url(#shineGradient)" opacity="0.4">
+    <animate attributeName="x" from="-400" to="1200" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Floating container group -->
+  <g filter="url(#glow)">
+    <!-- Slight float animation -->
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0 -4; 0 4; 0 -4"
+                      dur="5s"
+                      repeatCount="indefinite" />
+
+    <!-- 3D Name -->
+    <g filter="url(#extrude)">
+      <!-- Back/extruded layer -->
+      <text x="50%" y="48%" text-anchor="middle"
+            font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+            font-size="64"
+            fill="#020617" opacity="0.7">
+        Sathya Kapaganthu
+      </text>
+
+      <!-- Front gradient layer -->
+      <text x="50%" y="45%" text-anchor="middle"
+            font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+            font-weight="800"
+            font-size="64"
+            fill="url(#textGradient)">
+        Sathya Kapaganthu
+      </text>
+    </g>
+
+    <!-- Subtitle (role) -->
+    <text x="50%" y="62%" text-anchor="middle"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="26"
+          fill="#cbd5f5"
+          letter-spacing="3">
+      TECHNICAL PROJECT MANAGER
+      <animate attributeName="letter-spacing"
+               values="2;6;2"
+               dur="4s"
+               repeatCount="indefinite" />
+    </text>
+
+    <!-- Small accent line under role -->
+    <rect x="35%" y="66%" width="30%" height="2" rx="1"
+          fill="url(#textGradient)">
+      <animate attributeName="width"
+               values="20%;32%;20%"
+               dur="4s"
+               repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
 
 
 <h1 align="center">👋 Hi, I'm <span style="color:#ff7b54;">Sathya Kapaganthu</span></h1>
@@ -101,14 +203,11 @@ My interactive portfolio website showcases:
 > Place your screenshots in an `assets/` folder and update the paths below.
 
 <p align="center">
-  <img src="./assets/portfolio-home.png" alt="Portfolio Homepage" width="45%" />
-  <img src="./assets/portfolio-experience.png" alt="Portfolio Experience Section" width="45%" />
+  <a href="https://sathyakapaganthu.vercel.app/" target="_blank">
+    <img src="./assets/dashboard.png" alt="Portfolio Homepage" width="45%" />
+  </a>
 </p>
 
-<p align="center">
-  <img src="./assets/portfolio-chatbot.png" alt="Portfolio Chatbot Widget" width="45%" />
-  <img src="./assets/portfolio-skills.png" alt="Portfolio Skills Section" width="45%" />
-</p>
 
 ---
 
