@@ -15,9 +15,10 @@
   <img src="https://komarev.com/ghpvc/?username=SathyaKapaganthu&label=Profile%20Views&style=flat&color=blue" alt="Profile views" />
 </a>
 
-  <a href="https://github.com/SathyaKapaganthu?tab=followers">
-    <img src="https://img.shields.io/github/followers/<SathyaKapaganthu>?label=Followers&style=flat" alt="GitHub Followers" />
-  </a>
+<a href="https://github.com/SathyaKapaganthu?tab=followers">
+  <img src="https://img.shields.io/github/followers/SathyaKapaganthu?label=Followers&style=flat" alt="GitHub Followers" />
+</a>
+
   <a href="https://github.com/SathyaKapaganthu?tab=repositories">
     <img src="https://img.shields.io/badge/Projects-Portfolio-blueviolet?style=flat&logo=github" alt="Projects" />
   </a>
